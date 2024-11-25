@@ -286,7 +286,7 @@ Remove the logged-in user's account.
         }
         ```
         
-      - **Failure (Token used):**
+    - **Failure (Token used):**
         ```json
         {
             "status": "fail",
@@ -336,7 +336,7 @@ Fetch details of all authors
             "data": "No authors found"
         }
         ```
-      - **Failure (Token used):**
+    - **Failure (Token used):**
         ```json
         {
             "status": "fail",
@@ -413,7 +413,7 @@ Delete an author from the database.
             "data": "User with ID 1 does not exist."
         }
         ```
-      - **Failure (Token used):**
+    - **Failure (Token used):**
         ```json
         {
             "status": "fail",
@@ -454,14 +454,14 @@ Delete an author from the database.
             "data": "Title and Author ID are required"
         }
         ```
-     - **Failure (Author doesnt exist):**
+    - **Failure (Author doesnt exist):**
         ```json
         {
             "status": "fail",
             "data": "Author not found"
         }
         ```
-        - **Failure (Token used):**
+    - **Failure (Token used):**
         ```json
         {
             "status": "fail",
@@ -630,7 +630,7 @@ Creates a new book-author relationship by linking a specific book and author bas
         }
         ```
         
-        - **Failure (Token used):**
+    - **Failure (Token used):**
         ```json
         {
             "status": "fail",
@@ -775,7 +775,7 @@ Delete a book from the database.
         }
         ```
 
-      - **Failure (Token used):**
+    - **Failure (Token used):**
         ```json
         {
             "status": "fail",

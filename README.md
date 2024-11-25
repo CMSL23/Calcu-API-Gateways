@@ -76,7 +76,7 @@ The **Library Management System API** is a RESTful service designed to manage li
 ## Breakdown
 ### User Endpoints
 ---
-#### User Register
+### User Register
 - **Endpoint:** `/user/register`  
 
 - **Method:** `POST`  

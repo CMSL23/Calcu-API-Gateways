@@ -49,23 +49,23 @@ The **Library Management System API** is a RESTful service designed to manage li
 
 | **Endpoint**          | **Method** | **Description**                          |
 |-----------------------|------------|------------------------------------------|
-### User Endpoint
+|### User Endpoint--------------------------------------------------------------|
 | `/user/login`         | `POST`     | Authenticate user and return JWT.        |
 | `/user/register`     | `POST`     | Register a new user.                     |
 | `/user/read`         | `GET`      | Retrieve all registered users.           |
 | `/user/update`        | `PUT`      | Update user details.                     |
 | `/user/delete`       | `DELETE`   | Delete a user.                           |
-### Author Endpoint
+|### Author Endpoint------------------------------------------------------------|
 | `/author/add`         | `POST`     | Add a new author.                        |
 | `/author/read`       | `GET`      | Retrieve all authors.                    |
 | `/author/update`      | `PUT`      | Update author details.                   |
 | `/author/delete`      | `DELETE`   | Delete an author.                        |
-### Book Endpoint
+|### Book Endpoint--------------------------------------------------------------|
 | `/book/add`           | `POST`     | Add a new book.                          |
 | `/book/read`         | `GET`      | Retrieve all books.                      |
 | `/book/update`        | `PUT`      | Update book details.                     |
 | `/book/delete`        | `DELETE`   | Delete a book.                           |
-### Book and Author Endpoint
+|### Book and Author Endpoint---------------------------------------------------|
 | `/books_authors/add`    | `POST`     | Associate a book with an author.         |
 | `/books_authors/read`  | `GET`      | Retrieve all book-author relationships.  |
 | `/books_authors/update` | `PUT`      | Update book-author relationship.         |

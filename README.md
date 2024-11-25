@@ -74,7 +74,6 @@ The **Library Management System API** is a RESTful service designed to manage li
 ---
 
 ## Breakdown
----
 ### User Endpoints
 ---
 #### User Register
@@ -110,7 +109,7 @@ The **Library Management System API** is a RESTful service designed to manage li
         }
         ```
 ---
-#### User Login
+### User Login
 - **Endpoint:** `/user/login`  
 
 - **Method:** `POST`  
@@ -144,7 +143,7 @@ The **Library Management System API** is a RESTful service designed to manage li
         }
         ```
 ---
-#### User Read
+### User Read
 - **Endpoint:** `/user/read`  
 - **Method:** `GET`  
 - **Description:**  
@@ -187,7 +186,7 @@ Retrieve details of the logged-in user.
         }
         ```
 ---
-#### User Update
+### User Update
 - **Endpoint:** `/user/update`  
 - **Method:** `PUT`  
 - **Description:**  
@@ -220,7 +219,7 @@ Update the logged-in user's profile.
         }
         ```
 ---
-#### User Delete
+### User Delete
 - **Endpoint:** `/user/delete`  
 - **Method:** `DELETE`  
 - **Description:**  
@@ -253,7 +252,7 @@ Remove the logged-in user's account.
 ---
 ### Author Endpoints
 ---
-#### Author Register
+### Author Register
 - **Endpoint:** `/author/register`  
 
 - **Method:** `POST`  
@@ -294,7 +293,7 @@ Remove the logged-in user's account.
         }
         ```
 ---
-#### Author Read
+### Author Read
 - **Endpoint:** `/author/read`  
 - **Method:** `GET`  
 - **Description:**  
@@ -344,7 +343,7 @@ Fetch details of all authors
         }
         ```
 ---
-#### Author Update
+### Author Update
 - **Endpoint:** `/author/update`  
 - **Method:** `PUT`  
 - **Description:**  
@@ -383,7 +382,7 @@ Update an author’s information.
         }
         ```
 ---
-#### Author Delete
+### Author Delete
 - **Endpoint:** `/author/delete`  
 - **Method:** `DELETE`  
 - **Description:**  
@@ -421,7 +420,7 @@ Delete an author from the database.
         }
         ```
 ---
-#### Book Register
+### Book Register
 - **Endpoint:** `/book/register`  
 - **Method:** `POST`  
 - **Description:**  
@@ -467,7 +466,7 @@ Delete an author from the database.
         }
         ```
 ---
-#### Book Read
+### Book Read
 - **Endpoint:** `/book/read`  
 - **Method:** `GET`
 - **Description:**  
@@ -507,7 +506,7 @@ Fetch details of all books
         }
         ```
 ---
-#### Book Update
+### Book Update
 - **Endpoint:** `/book/update`  
 - **Method:** `PUT`  
 - **Description:**  
@@ -547,7 +546,7 @@ Update an book's information.
         }
         ```
 ---
-#### Book Delete
+### Book Delete
 - **Endpoint:** `/book/delete`  
 - **Method:** `DELETE`  
 - **Description:**  
@@ -586,7 +585,7 @@ Delete a book from the database.
         }
         ```
 ---
-#### Book_Author Register
+### Book_Author Register
 - **Endpoint:** `/books_authors/create`  
 - **Method:** `POST`  
 - **Description:**  
@@ -634,7 +633,7 @@ Creates a new book-author relationship by linking a specific book and author bas
         }
         ```
 ---
-#### Book_Author Read
+### Book_Author Read
 - **Endpoint:** `/book/read`  
 - **Method:** `GET`
 - **Description:**  
@@ -683,7 +682,7 @@ Fetch details of all books_authors
         }
         ```
 ---
-#### Book_Author Update
+### Book_Author Update
 - **Endpoint:** `/books_authors/update`  
 - **Method:** `PUT`  
 - **Description:**  
@@ -740,7 +739,7 @@ Update an books_authors information.
         }
         ```
 ---
-#### Book_Author Delete
+### Book_Author Delete
 - **Endpoint:** `/books_authors/delete`  
 - **Method:** `DELETE`  
 - **Description:**  

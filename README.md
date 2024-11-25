@@ -518,7 +518,7 @@ Update an book's information.
     ```json
     {
         "bookid": "1",
-        "title": HARRY POTTER",  (updated book title)
+        "title": "HARRY POTTER",  (updated book title)
         "authorid": 2 (updated author)
     }
     ```
@@ -696,7 +696,7 @@ Update an books_authors information.
     ```json
     {
         "collectionid": 1,
-        "bookid": 2",  (updated bookid)
+        "bookid": 2,  (updated bookid)
         "authorid": 2
     }
     ```

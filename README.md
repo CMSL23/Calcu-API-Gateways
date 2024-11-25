@@ -11,6 +11,7 @@ The **Library Management System API** is a RESTful service designed to manage li
 - [Features](#features)
 - [Technology Used](#technology-used)
 - [Endpoints Overview](#endpoints-overview)
+- [Breakdown](#breakdown)
 
 ---
 

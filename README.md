@@ -196,7 +196,7 @@ Update the logged-in user's profile.
     ```json
     {
         "userid": "1",
-        "username": "user123 (updated username)",
+        "username": "user123", (updated username)
         "password": "password"
     }
     ```
@@ -353,7 +353,7 @@ Update an author’s information.
     ```json
     {
         "authorid": "1",
-        "name": "JK ROWLING (updated author name)",
+        "name": "JK ROWLING" (updated author name)
     }
     ```
 
@@ -419,6 +419,8 @@ Delete an author from the database.
             "data": "Token has already been used"
         }
         ```
+---
+### Book Endpoints
 ---
 ### Book Register
 - **Endpoint:** `/book/register`  
@@ -516,7 +518,7 @@ Update an book's information.
     ```json
     {
         "bookid": "1",
-        "title": HARRY POTTER (updated book title)",
+        "title": HARRY POTTER",  (updated book title)
         "authorid": 2 (updated author)
     }
     ```
@@ -584,6 +586,8 @@ Delete a book from the database.
             "data": "Token has already been used"
         }
         ```
+---
+### Book And Author Relationship Endpoints
 ---
 ### Book_Author Register
 - **Endpoint:** `/books_authors/create`  
@@ -692,7 +696,7 @@ Update an books_authors information.
     ```json
     {
         "collectionid": 1,
-        "bookid": 2 (updated bookid)",
+        "bookid": 2",  (updated bookid)
         "authorid": 2
     }
     ```

@@ -2,7 +2,7 @@
 
 ## Description
 
-The **Library Management System API** is a RESTful service designed to manage libraries efficiently. It allows administrators to manage users, authors, and books while enabling students or members to borrow and return books. This API ensures a smooth library operation with secure authentication and robust features for scalability and reliability.
+The **Library Management System API** is a RESTful service designed to manage libraries efficiently. It allows administrators to manage users, authors, and books. This API ensures a smooth library operation with secure authentication and robust features for scalability and reliability.
 
 ---
 
